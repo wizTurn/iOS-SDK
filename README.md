@@ -1,3 +1,3 @@
-# WizTurn Beacon SDK for iOS
+# wizTurn Beacon SDK for iOS
 
 COPYRIGHT(C) 2014 SK TELECOM. ALL RIGHTS RESERVED.
