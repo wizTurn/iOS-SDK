@@ -267,6 +267,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = dio;
 				TargetAttributes = {
+					F68B324E18FB9D3100046A81 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					F68B326918FB9D3100046A81 = {
 						TestTargetID = F68B324E18FB9D3100046A81;
 					};
@@ -454,7 +461,7 @@
 					"$(PROJECT_DIR)/WZSample/WZBeacon/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = /Users/taesoo/Documents/DioGit/WZBeacon_iOS/WZBeacon/WZBeacon/;
+				USER_HEADER_SEARCH_PATHS = "/Users/taesoo/Documents/DioGit/WZBeacon_iOS/WZBeacon/WZBeacon/ ./WZBeacon/header";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -475,7 +482,7 @@
 					"$(PROJECT_DIR)/WZSample/WZBeacon/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = /Users/taesoo/Documents/DioGit/WZBeacon_iOS/WZBeacon/WZBeacon/;
+				USER_HEADER_SEARCH_PATHS = "/Users/taesoo/Documents/DioGit/WZBeacon_iOS/WZBeacon/WZBeacon/ ./WZBeacon/header";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

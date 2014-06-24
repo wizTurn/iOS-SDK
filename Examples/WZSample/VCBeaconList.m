@@ -184,6 +184,7 @@
 - (void)beaconManager:(WZBeaconManager *)manager didRangeBeacons:(NSArray *)beacons inRegion:(WZBeaconRegion *)region
 {
     _beacons = beacons;
+    NSLog(@"scanning...");
     [_tableView reloadData];
 }
 
