@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/WZBeaconDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/WZBeaconDelegate</TokenIdentifier>
+			<Abstract type="html">Delegate working with WZBeacon. Also same notification(NSNotificationCenter) is push.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+            
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/WZBeaconDelegate/beaconDidUpdateRSSI:error:</TokenIdentifier>
+			<Abstract type="html">Calls by call readRSSI message. You can get RSSI value by this delegate.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>- (void)beaconDidUpdateRSSI:(WZBeacon *)beacon error:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/beaconDidUpdateRSSI:error:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/WZBeaconDelegate/beaconDidFetchData:</TokenIdentifier>
+			<Abstract type="html">Calls by fetchData.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>- (void)beaconDidFetchData:(WZBeacon *)beacon</Declaration>
+			
+			
+			<Anchor>//api/name/beaconDidFetchData:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/WZBeaconDelegate/beacon:didRequireAuthenticate:</TokenIdentifier>
+			<Abstract type="html">Calls if beacon request authenticate or not.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>- (void)beacon:(WZBeacon *)beacon didRequireAuthenticate:(BOOL)yesOrNo</Declaration>
+			
+			
+			<Anchor>//api/name/beacon:didRequireAuthenticate:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/WZBeaconDelegate/beacon:didAuthenticate:</TokenIdentifier>
+			<Abstract type="html">Calls if authenticate is success of fail.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>- (void)beacon:(WZBeacon *)beacon didAuthenticate:(BOOL)successOrFail</Declaration>
+			
+			
+			<Anchor>//api/name/beacon:didAuthenticate:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/WZBeaconDelegate/beacon:didChangedPassword:error:</TokenIdentifier>
+			<Abstract type="html">Calls if change the password.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>- (void)beacon:(WZBeacon *)beacon didChangedPassword:(BOOL)successOrFail error:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/beacon:didChangedPassword:error:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/WZBeaconDelegate/beaconDidWriteValue:error:</TokenIdentifier>
+			<Abstract type="html">Calls by write message. You can check it successful or failed by this delegate.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>- (void)beaconDidWriteValue:(WZBeacon *)beacon error:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/beaconDidWriteValue:error:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

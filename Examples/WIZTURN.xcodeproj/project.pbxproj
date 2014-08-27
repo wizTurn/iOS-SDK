@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D80292591974C54B006B94F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80292581974C54B006B94F3 /* Foundation.framework */; };
+		D802925B1974C54B006B94F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D802925A1974C54B006B94F3 /* CoreGraphics.framework */; };
+		D802925D1974C54B006B94F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D802925C1974C54B006B94F3 /* UIKit.framework */; };
+		D80292631974C54B006B94F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D80292611974C54B006B94F3 /* InfoPlist.strings */; };
+		D80292651974C54C006B94F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D80292641974C54C006B94F3 /* main.m */; };
+		D80292691974C54C006B94F3 /* WZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D80292681974C54C006B94F3 /* WZAppDelegate.m */; };
+		D80292721974C54C006B94F3 /* WZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D80292711974C54C006B94F3 /* WZViewController.m */; };
+		D80292911974C5BA006B94F3 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80292901974C5BA006B94F3 /* CoreBluetooth.framework */; };
+		D80292981974CD25006B94F3 /* BeaconTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D80292971974CD25006B94F3 /* BeaconTableViewCell.m */; };
+		D80292A61978F10A006B94F3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80292A51978F10A006B94F3 /* CoreLocation.framework */; };
+		D80292A819791C58006B94F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80292A719791C58006B94F3 /* Images.xcassets */; };
+		D814119719A4739F00438592 /* UUIDMajorMinorAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D814119619A4739F00438592 /* UUIDMajorMinorAddView.xib */; };
+		D8307D34198795E700E37D47 /* InfoCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8307D33198795E700E37D47 /* InfoCellView.m */; };
+		D8307D371987968F00E37D47 /* WZBeaconBLEInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D8307D361987968F00E37D47 /* WZBeaconBLEInfo.m */; };
+		D86245991991FB3D00C5460C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D862459B1991FB3D00C5460C /* Localizable.strings */; };
+		D86245A619921C3600C5460C /* WZBeaconBLEList.m in Sources */ = {isa = PBXBuildFile; fileRef = D86245A519921C3600C5460C /* WZBeaconBLEList.m */; };
+		D86245A819921F0500C5460C /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D86245A719921F0500C5460C /* logo@2x.png */; };
+		D86245AA19921F0900C5460C /* btn_dn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D86245A919921F0900C5460C /* btn_dn@2x.png */; };
+		D8A405091993392100B5942A /* icon-pebBLE.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A405081993392100B5942A /* icon-pebBLE.png */; };
+		D8A406091993558700B5942A /* WZBeaconList.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A406081993558700B5942A /* WZBeaconList.m */; };
+		D8A4060C199358CA00B5942A /* WZBeaconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A4060B199358CA00B5942A /* WZBeaconInfo.m */; };
+		D8A4060F19936DAB00B5942A /* WZPreference.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A4060E19936DAB00B5942A /* WZPreference.m */; };
+		D8CBE22B199B05AF00DB4EF5 /* libWZBeaconSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EFD38D199A14D500FA745C /* libWZBeaconSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D80292551974C54B006B94F3 /* WIZTURN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WIZTURN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80292581974C54B006B94F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D802925A1974C54B006B94F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D802925C1974C54B006B94F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D80292601974C54B006B94F3 /* WIZTURN-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "WIZTURN-Info.plist"; path = "WIZTURN/WIZTURN-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D80292621974C54B006B94F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D80292641974C54C006B94F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = WIZTURN/main.m; sourceTree = SOURCE_ROOT; };
+		D80292661974C54C006B94F3 /* WIZTURN-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WIZTURN-Prefix.pch"; path = "WIZTURN/WIZTURN-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		D80292671974C54C006B94F3 /* WZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WZAppDelegate.h; path = WIZTURN/WZAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		D80292681974C54C006B94F3 /* WZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WZAppDelegate.m; path = WIZTURN/WZAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		D80292701974C54C006B94F3 /* WZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WZViewController.h; path = WIZTURN/WZViewController.h; sourceTree = SOURCE_ROOT; };
+		D80292711974C54C006B94F3 /* WZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WZViewController.m; path = WIZTURN/WZViewController.m; sourceTree = SOURCE_ROOT; };
+		D802927A1974C54C006B94F3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D80292901974C5BA006B94F3 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		D80292961974CD25006B94F3 /* BeaconTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeaconTableViewCell.h; path = WIZTURN/BeaconTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		D80292971974CD25006B94F3 /* BeaconTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeaconTableViewCell.m; path = WIZTURN/BeaconTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		D80292A51978F10A006B94F3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D80292A719791C58006B94F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WIZTURN/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		D814119619A4739F00438592 /* UUIDMajorMinorAddView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UUIDMajorMinorAddView.xib; path = WIZTURN/UUIDMajorMinorAddView.xib; sourceTree = SOURCE_ROOT; };
+		D8307D32198795E700E37D47 /* InfoCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoCellView.h; path = WIZTURN/InfoCellView.h; sourceTree = SOURCE_ROOT; };
+		D8307D33198795E700E37D47 /* InfoCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoCellView.m; path = WIZTURN/InfoCellView.m; sourceTree = SOURCE_ROOT; };
+		D8307D351987968F00E37D47 /* WZBeaconBLEInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZBeaconBLEInfo.h; path = WIZTURN/WZBeaconBLEInfo.h; sourceTree = SOURCE_ROOT; };
+		D8307D361987968F00E37D47 /* WZBeaconBLEInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZBeaconBLEInfo.m; path = WIZTURN/WZBeaconBLEInfo.m; sourceTree = SOURCE_ROOT; };
+		D862459A1991FB3D00C5460C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D862459C1991FB8000C5460C /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D862459D1991FB8000C5460C /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D86245A419921C3600C5460C /* WZBeaconBLEList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZBeaconBLEList.h; path = WIZTURN/WZBeaconBLEList.h; sourceTree = SOURCE_ROOT; };
+		D86245A519921C3600C5460C /* WZBeaconBLEList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZBeaconBLEList.m; path = WIZTURN/WZBeaconBLEList.m; sourceTree = SOURCE_ROOT; };
+		D86245A719921F0500C5460C /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@2x.png"; path = "WIZTURN/logo@2x.png"; sourceTree = SOURCE_ROOT; };
+		D86245A919921F0900C5460C /* btn_dn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_dn@2x.png"; path = "WIZTURN/btn_dn@2x.png"; sourceTree = SOURCE_ROOT; };
+		D8A405081993392100B5942A /* icon-pebBLE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-pebBLE.png"; path = "WIZTURN/icon-pebBLE.png"; sourceTree = SOURCE_ROOT; };
+		D8A406071993558700B5942A /* WZBeaconList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZBeaconList.h; path = WIZTURN/WZBeaconList.h; sourceTree = SOURCE_ROOT; };
+		D8A406081993558700B5942A /* WZBeaconList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZBeaconList.m; path = WIZTURN/WZBeaconList.m; sourceTree = SOURCE_ROOT; };
+		D8A4060A199358CA00B5942A /* WZBeaconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZBeaconInfo.h; path = WIZTURN/WZBeaconInfo.h; sourceTree = SOURCE_ROOT; };
+		D8A4060B199358CA00B5942A /* WZBeaconInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZBeaconInfo.m; path = WIZTURN/WZBeaconInfo.m; sourceTree = SOURCE_ROOT; };
+		D8A4060D19936DAB00B5942A /* WZPreference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZPreference.h; path = WIZTURN/WZPreference.h; sourceTree = SOURCE_ROOT; };
+		D8A4060E19936DAB00B5942A /* WZPreference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WZPreference.m; path = WIZTURN/WZPreference.m; sourceTree = SOURCE_ROOT; };
+		D8A406431998B27400B5942A /* WZBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZBeacon.h; path = SDK/includes/WZBeacon.h; sourceTree = SOURCE_ROOT; };
+		D8A406441998B27400B5942A /* WZBeaconBLEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZBeaconBLEManager.h; path = SDK/includes/WZBeaconBLEManager.h; sourceTree = SOURCE_ROOT; };
+		D8A406451998B27400B5942A /* WZBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZBeaconManager.h; path = SDK/includes/WZBeaconManager.h; sourceTree = SOURCE_ROOT; };
+		D8A406461998B27400B5942A /* WZBeaconRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZBeaconRegion.h; path = SDK/includes/WZBeaconRegion.h; sourceTree = SOURCE_ROOT; };
+		D8A406471998B27400B5942A /* WZBeaconSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZBeaconSDK.h; path = SDK/includes/WZBeaconSDK.h; sourceTree = SOURCE_ROOT; };
+		D8CBE233199C99CB00DB4EF5 /* WZNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WZNotification.h; path = SDK/includes/WZNotification.h; sourceTree = SOURCE_ROOT; };
+		D8EFD38D199A14D500FA745C /* libWZBeaconSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWZBeaconSDK.a; path = SDK/libs/libWZBeaconSDK.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D80292521974C54B006B94F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80292A61978F10A006B94F3 /* CoreLocation.framework in Frameworks */,
+				D80292911974C5BA006B94F3 /* CoreBluetooth.framework in Frameworks */,
+				D8CBE22B199B05AF00DB4EF5 /* libWZBeaconSDK.a in Frameworks */,
+				D802925B1974C54B006B94F3 /* CoreGraphics.framework in Frameworks */,
+				D802925D1974C54B006B94F3 /* UIKit.framework in Frameworks */,
+				D80292591974C54B006B94F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D802924C1974C54B006B94F3 = {
+			isa = PBXGroup;
+			children = (
+				D802925E1974C54B006B94F3 /* WIZTURN */,
+				D80292571974C54B006B94F3 /* Frameworks */,
+				D80292561974C54B006B94F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D80292561974C54B006B94F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D80292551974C54B006B94F3 /* WIZTURN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D80292571974C54B006B94F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D80292A51978F10A006B94F3 /* CoreLocation.framework */,
+				D80292901974C5BA006B94F3 /* CoreBluetooth.framework */,
+				D80292581974C54B006B94F3 /* Foundation.framework */,
+				D802925A1974C54B006B94F3 /* CoreGraphics.framework */,
+				D802925C1974C54B006B94F3 /* UIKit.framework */,
+				D802927A1974C54C006B94F3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D802925E1974C54B006B94F3 /* WIZTURN */ = {
+			isa = PBXGroup;
+			children = (
+				D8A4063C1998B24700B5942A /* SDK */,
+				D80292671974C54C006B94F3 /* WZAppDelegate.h */,
+				D80292681974C54C006B94F3 /* WZAppDelegate.m */,
+				D80292701974C54C006B94F3 /* WZViewController.h */,
+				D80292711974C54C006B94F3 /* WZViewController.m */,
+				D86245A419921C3600C5460C /* WZBeaconBLEList.h */,
+				D86245A519921C3600C5460C /* WZBeaconBLEList.m */,
+				D8307D351987968F00E37D47 /* WZBeaconBLEInfo.h */,
+				D8307D361987968F00E37D47 /* WZBeaconBLEInfo.m */,
+				D8A406071993558700B5942A /* WZBeaconList.h */,
+				D8A406081993558700B5942A /* WZBeaconList.m */,
+				D8A4060A199358CA00B5942A /* WZBeaconInfo.h */,
+				D8A4060B199358CA00B5942A /* WZBeaconInfo.m */,
+				D8A4060D19936DAB00B5942A /* WZPreference.h */,
+				D8A4060E19936DAB00B5942A /* WZPreference.m */,
+				D80292961974CD25006B94F3 /* BeaconTableViewCell.h */,
+				D80292971974CD25006B94F3 /* BeaconTableViewCell.m */,
+				D8307D32198795E700E37D47 /* InfoCellView.h */,
+				D8307D33198795E700E37D47 /* InfoCellView.m */,
+				D814119619A4739F00438592 /* UUIDMajorMinorAddView.xib */,
+				D80292A719791C58006B94F3 /* Images.xcassets */,
+				D802925F1974C54B006B94F3 /* Supporting Files */,
+			);
+			name = WIZTURN;
+			path = "WizturnBeacon RnD";
+			sourceTree = "<group>";
+		};
+		D802925F1974C54B006B94F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8A405081993392100B5942A /* icon-pebBLE.png */,
+				D86245A719921F0500C5460C /* logo@2x.png */,
+				D86245A919921F0900C5460C /* btn_dn@2x.png */,
+				D80292601974C54B006B94F3 /* WIZTURN-Info.plist */,
+				D80292611974C54B006B94F3 /* InfoPlist.strings */,
+				D80292641974C54C006B94F3 /* main.m */,
+				D80292661974C54C006B94F3 /* WIZTURN-Prefix.pch */,
+				D862459B1991FB3D00C5460C /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			path = "WIZTURN/Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8A4063C1998B24700B5942A /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				D8A4063F1998B25100B5942A /* includes */,
+				D8A406401998B25700B5942A /* libs */,
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+		D8A4063F1998B25100B5942A /* includes */ = {
+			isa = PBXGroup;
+			children = (
+				D8A406431998B27400B5942A /* WZBeacon.h */,
+				D8A406441998B27400B5942A /* WZBeaconBLEManager.h */,
+				D8A406451998B27400B5942A /* WZBeaconManager.h */,
+				D8A406461998B27400B5942A /* WZBeaconRegion.h */,
+				D8CBE233199C99CB00DB4EF5 /* WZNotification.h */,
+				D8A406471998B27400B5942A /* WZBeaconSDK.h */,
+			);
+			name = includes;
+			sourceTree = "<group>";
+		};
+		D8A406401998B25700B5942A /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				D8EFD38D199A14D500FA745C /* libWZBeaconSDK.a */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D80292541974C54B006B94F3 /* WIZTURN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D802928A1974C54C006B94F3 /* Build configuration list for PBXNativeTarget "WIZTURN" */;
+			buildPhases = (
+				D80292511974C54B006B94F3 /* Sources */,
+				D80292521974C54B006B94F3 /* Frameworks */,
+				D80292531974C54B006B94F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WIZTURN;
+			productName = "WizturnBeacon RnD";
+			productReference = D80292551974C54B006B94F3 /* WIZTURN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D802924D1974C54B006B94F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "dio interactive";
+				TargetAttributes = {
+					D80292541974C54B006B94F3 = {
+						DevelopmentTeam = Q7G8E8MQ6S;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D80292501974C54B006B94F3 /* Build configuration list for PBXProject "WIZTURN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ko,
+			);
+			mainGroup = D802924C1974C54B006B94F3;
+			productRefGroup = D80292561974C54B006B94F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D80292541974C54B006B94F3 /* WIZTURN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D80292531974C54B006B94F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80292631974C54B006B94F3 /* InfoPlist.strings in Resources */,
+				D814119719A4739F00438592 /* UUIDMajorMinorAddView.xib in Resources */,
+				D86245A819921F0500C5460C /* logo@2x.png in Resources */,
+				D86245991991FB3D00C5460C /* Localizable.strings in Resources */,
+				D8A405091993392100B5942A /* icon-pebBLE.png in Resources */,
+				D80292A819791C58006B94F3 /* Images.xcassets in Resources */,
+				D86245AA19921F0900C5460C /* btn_dn@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D80292511974C54B006B94F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8307D371987968F00E37D47 /* WZBeaconBLEInfo.m in Sources */,
+				D8A4060F19936DAB00B5942A /* WZPreference.m in Sources */,
+				D80292651974C54C006B94F3 /* main.m in Sources */,
+				D86245A619921C3600C5460C /* WZBeaconBLEList.m in Sources */,
+				D80292981974CD25006B94F3 /* BeaconTableViewCell.m in Sources */,
+				D80292691974C54C006B94F3 /* WZAppDelegate.m in Sources */,
+				D8A4060C199358CA00B5942A /* WZBeaconInfo.m in Sources */,
+				D8307D34198795E700E37D47 /* InfoCellView.m in Sources */,
+				D8A406091993558700B5942A /* WZBeaconList.m in Sources */,
+				D80292721974C54C006B94F3 /* WZViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D80292611974C54B006B94F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80292621974C54B006B94F3 /* en */,
+				D862459C1991FB8000C5460C /* ko */,
+			);
+			name = InfoPlist.strings;
+			path = WIZTURN;
+			sourceTree = SOURCE_ROOT;
+		};
+		D862459B1991FB3D00C5460C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D862459A1991FB3D00C5460C /* en */,
+				D862459D1991FB8000C5460C /* ko */,
+			);
+			name = Localizable.strings;
+			path = WIZTURN;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D80292881974C54C006B94F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D80292891974C54C006B94F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D802928B1974C54C006B94F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				DYLIB_CURRENT_VERSION = 2.0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WIZTURN/WIZTURN-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "WIZTURN/WIZTURN-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDK/libs",
+				);
+				PRODUCT_NAME = WIZTURN;
+				PROVISIONING_PROFILE = "7e545f9f-61f2-485a-9d68-381a79540e1e";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D802928C1974C54C006B94F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				DYLIB_CURRENT_VERSION = 2.0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WIZTURN/WIZTURN-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "WIZTURN/WIZTURN-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDK/libs",
+				);
+				PRODUCT_NAME = WIZTURN;
+				PROVISIONING_PROFILE = "7e545f9f-61f2-485a-9d68-381a79540e1e";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D80292501974C54B006B94F3 /* Build configuration list for PBXProject "WIZTURN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80292881974C54C006B94F3 /* Debug */,
+				D80292891974C54C006B94F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D802928A1974C54C006B94F3 /* Build configuration list for PBXNativeTarget "WIZTURN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D802928B1974C54C006B94F3 /* Debug */,
+				D802928C1974C54C006B94F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D802924D1974C54B006B94F3 /* Project object */;
+}

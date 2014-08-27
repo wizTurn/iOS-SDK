@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/WZBeacon.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/WZBeacon</TokenIdentifier>
+			<Abstract type="html">iBeacon object working for WZBeaconBLEManager. This class provides write value into a iBeacon device function for &quot;WIZTURN Beacon&quot; device.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/getDistance</TokenIdentifier>
+			<Abstract type="html">Get distance from beacon. If you get -1, it mean cannot determine distance.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>- (double)getDistance</Declaration>
+			
+			
+			<Anchor>//api/name/getDistance</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/getProximity</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>- (CLProximity)getProximity</Declaration>
+			
+			
+			<Anchor>//api/name/getProximity</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/fetchData</TokenIdentifier>
+			<Abstract type="html">Get all characteristics data. When fetched complete, delegate beaconDidFetchData: called.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>- (void)fetchData</Declaration>
+			
+			
+			<Anchor>//api/name/fetchData</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/readRSSI</TokenIdentifier>
+			<Abstract type="html">Read RSSI value while connected. Return value is called by delegate.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>- (void)readRSSI</Declaration>
+			
+			
+			<Anchor>//api/name/readRSSI</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/authenticate:</TokenIdentifier>
+			<Abstract type="html">Try authentication if beacon require authenticate.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)authenticate:(NSString *)password</Declaration>
+			
+			
+			<Anchor>//api/name/authenticate:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/writeUUID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>- (void)writeUUID:(NSString *)uuid</Declaration>
+			
+			
+			<Anchor>//api/name/writeUUID:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/writeMajor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>- (void)writeMajor:(NSNumber *)major</Declaration>
+			
+			
+			<Anchor>//api/name/writeMajor:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/writeMinor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>- (void)writeMinor:(NSNumber *)minor</Declaration>
+			
+			
+			<Anchor>//api/name/writeMinor:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/writeTxPower:</TokenIdentifier>
+			<Abstract type="html">txPower must be a txPowerTable index</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>- (void)writeTxPower:(NSNumber *)txPower</Declaration>
+			
+			
+			<Anchor>//api/name/writeTxPower:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/writeAdvInterval:</TokenIdentifier>
+			<Abstract type="html">advInterval must be a advIntervalTable index</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>- (void)writeAdvInterval:(NSNumber *)advInterval</Declaration>
+			
+			
+			<Anchor>//api/name/writeAdvInterval:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/writePassword:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>- (void)writePassword:(NSString *)password</Declaration>
+			
+			
+			<Anchor>//api/name/writePassword:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/setEnableNotification:</TokenIdentifier>
+			<Abstract type="html">Broadcast notification enable or disable. Default is disable.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableNotification</Declaration>
+			
+			
+			<Anchor>//api/name/enableNotification</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/enableNotification</TokenIdentifier>
+			<Abstract type="html">Broadcast notification enable or disable. Default is disable.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableNotification</Declaration>
+			
+			
+			<Anchor>//api/name/enableNotification</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeacon/enableNotification</TokenIdentifier>
+			<Abstract type="html">Broadcast notification enable or disable. Default is disable.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableNotification</Declaration>
+			
+			
+			<Anchor>//api/name/enableNotification</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/setPeripheral:</TokenIdentifier>
+			<Abstract type="html">This value will fill by call WZBeaconBLEManager startBLEScan message.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CBPeripheral *peripheral</Declaration>
+			
+			
+			<Anchor>//api/name/peripheral</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/peripheral</TokenIdentifier>
+			<Abstract type="html">This value will fill by call WZBeaconBLEManager startBLEScan message.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CBPeripheral *peripheral</Declaration>
+			
+			
+			<Anchor>//api/name/peripheral</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeacon/peripheral</TokenIdentifier>
+			<Abstract type="html">This value will fill by call WZBeaconBLEManager startBLEScan message.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CBPeripheral *peripheral</Declaration>
+			
+			
+			<Anchor>//api/name/peripheral</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/setIsConnected:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isConnected</Declaration>
+			
+			
+			<Anchor>//api/name/isConnected</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/isConnected</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isConnected</Declaration>
+			
+			
+			<Anchor>//api/name/isConnected</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeacon/isConnected</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isConnected</Declaration>
+			
+			
+			<Anchor>//api/name/isConnected</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/setIsFetchComplete:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isFetchComplete</Declaration>
+			
+			
+			<Anchor>//api/name/isFetchComplete</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/isFetchComplete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isFetchComplete</Declaration>
+			
+			
+			<Anchor>//api/name/isFetchComplete</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeacon/isFetchComplete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isFetchComplete</Declaration>
+			
+			
+			<Anchor>//api/name/isFetchComplete</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/setBDName:</TokenIdentifier>
+			<Abstract type="html">Produect name like pebBLE, nimBLE</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *BDName</Declaration>
+			
+			
+			<Anchor>//api/name/BDName</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/BDName</TokenIdentifier>
+			<Abstract type="html">Produect name like pebBLE, nimBLE</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *BDName</Declaration>
+			
+			
+			<Anchor>//api/name/BDName</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeacon/BDName</TokenIdentifier>
+			<Abstract type="html">Produect name like pebBLE, nimBLE</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *BDName</Declaration>
+			
+			
+			<Anchor>//api/name/BDName</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/setBDAddress:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *BDAddress</Declaration>
+			
+			
+			<Anchor>//api/name/BDAddress</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/BDAddress</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *BDAddress</Declaration>
+			
+			
+			<Anchor>//api/name/BDAddress</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeacon/BDAddress</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *BDAddress</Declaration>
+			
+			
+			<Anchor>//api/name/BDAddress</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/setProximityUUID:</TokenIdentifier>
+			<Abstract type="html">This value will fill by call fetchData</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *proximityUUID</Declaration>
+			
+			
+			<Anchor>//api/name/proximityUUID</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/proximityUUID</TokenIdentifier>
+			<Abstract type="html">This value will fill by call fetchData</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *proximityUUID</Declaration>
+			
+			
+			<Anchor>//api/name/proximityUUID</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeacon/proximityUUID</TokenIdentifier>
+			<Abstract type="html">This value will fill by call fetchData</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *proximityUUID</Declaration>
+			
+			
+			<Anchor>//api/name/proximityUUID</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/setMajor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *major</Declaration>
+			
+			
+			<Anchor>//api/name/major</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/major</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *major</Declaration>
+			
+			
+			<Anchor>//api/name/major</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeacon/major</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *major</Declaration>
+			
+			
+			<Anchor>//api/name/major</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/setMinor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *minor</Declaration>
+			
+			
+			<Anchor>//api/name/minor</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/minor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *minor</Declaration>
+			
+			
+			<Anchor>//api/name/minor</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeacon/minor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *minor</Declaration>
+			
+			
+			<Anchor>//api/name/minor</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/setMeasuredPower:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *measuredPower</Declaration>
+			
+			
+			<Anchor>//api/name/measuredPower</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/measuredPower</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *measuredPower</Declaration>
+			
+			
+			<Anchor>//api/name/measuredPower</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeacon/measuredPower</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *measuredPower</Declaration>
+			
+			
+			<Anchor>//api/name/measuredPower</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/setRssi:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *rssi</Declaration>
+			
+			
+			<Anchor>//api/name/rssi</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/rssi</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *rssi</Declaration>
+			
+			
+			<Anchor>//api/name/rssi</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeacon/rssi</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *rssi</Declaration>
+			
+			
+			<Anchor>//api/name/rssi</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/setTxPower:</TokenIdentifier>
+			<Abstract type="html">Present by txPowerTable. This value will fill by call fetchData</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *txPower</Declaration>
+			
+			
+			<Anchor>//api/name/txPower</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/txPower</TokenIdentifier>
+			<Abstract type="html">Present by txPowerTable. This value will fill by call fetchData</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *txPower</Declaration>
+			
+			
+			<Anchor>//api/name/txPower</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeacon/txPower</TokenIdentifier>
+			<Abstract type="html">Present by txPowerTable. This value will fill by call fetchData</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *txPower</Declaration>
+			
+			
+			<Anchor>//api/name/txPower</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/setAdvInterval:</TokenIdentifier>
+			<Abstract type="html">Present by advIntervalTable. This value will fill by call fetchData</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *advInterval</Declaration>
+			
+			
+			<Anchor>//api/name/advInterval</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/advInterval</TokenIdentifier>
+			<Abstract type="html">Present by advIntervalTable. This value will fill by call fetchData</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *advInterval</Declaration>
+			
+			
+			<Anchor>//api/name/advInterval</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeacon/advInterval</TokenIdentifier>
+			<Abstract type="html">Present by advIntervalTable. This value will fill by call fetchData</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *advInterval</Declaration>
+			
+			
+			<Anchor>//api/name/advInterval</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/setBatteryLevel:</TokenIdentifier>
+			<Abstract type="html">Present as percent level. This value will fill by call fetchData.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *batteryLevel</Declaration>
+			
+			
+			<Anchor>//api/name/batteryLevel</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/batteryLevel</TokenIdentifier>
+			<Abstract type="html">Present as percent level. This value will fill by call fetchData.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *batteryLevel</Declaration>
+			
+			
+			<Anchor>//api/name/batteryLevel</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeacon/batteryLevel</TokenIdentifier>
+			<Abstract type="html">Present as percent level. This value will fill by call fetchData.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *batteryLevel</Declaration>
+			
+			
+			<Anchor>//api/name/batteryLevel</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/setHardwareVersion:</TokenIdentifier>
+			<Abstract type="html">This value will fill by call fetchData</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *hardwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/hardwareVersion</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/hardwareVersion</TokenIdentifier>
+			<Abstract type="html">This value will fill by call fetchData</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *hardwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/hardwareVersion</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeacon/hardwareVersion</TokenIdentifier>
+			<Abstract type="html">This value will fill by call fetchData</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *hardwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/hardwareVersion</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/setFirmwareVersion:</TokenIdentifier>
+			<Abstract type="html">This value will fill by call fetchData</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *firmwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersion</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/firmwareVersion</TokenIdentifier>
+			<Abstract type="html">This value will fill by call fetchData</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *firmwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersion</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeacon/firmwareVersion</TokenIdentifier>
+			<Abstract type="html">This value will fill by call fetchData</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *firmwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersion</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/setManufacturer:</TokenIdentifier>
+			<Abstract type="html">This value will fill by call fetchData</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *manufacturer</Declaration>
+			
+			
+			<Anchor>//api/name/manufacturer</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/manufacturer</TokenIdentifier>
+			<Abstract type="html">This value will fill by call fetchData</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *manufacturer</Declaration>
+			
+			
+			<Anchor>//api/name/manufacturer</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeacon/manufacturer</TokenIdentifier>
+			<Abstract type="html">This value will fill by call fetchData</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *manufacturer</Declaration>
+			
+			
+			<Anchor>//api/name/manufacturer</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/setDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate object to receive update events.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) id&lt;WZBeaconDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/delegate</TokenIdentifier>
+			<Abstract type="html">The delegate object to receive update events.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) id&lt;WZBeaconDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeacon/delegate</TokenIdentifier>
+			<Abstract type="html">The delegate object to receive update events.</Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) id&lt;WZBeaconDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/setTxPowerTable:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableArray *txPowerTable</Declaration>
+			
+			
+			<Anchor>//api/name/txPowerTable</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/txPowerTable</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableArray *txPowerTable</Declaration>
+			
+			
+			<Anchor>//api/name/txPowerTable</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeacon/txPowerTable</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableArray *txPowerTable</Declaration>
+			
+			
+			<Anchor>//api/name/txPowerTable</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/setAdvIntervalTable:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableArray *advIntervalTable</Declaration>
+			
+			
+			<Anchor>//api/name/advIntervalTable</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeacon/advIntervalTable</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableArray *advIntervalTable</Declaration>
+			
+			
+			<Anchor>//api/name/advIntervalTable</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeacon/advIntervalTable</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableArray *advIntervalTable</Declaration>
+			
+			
+			<Anchor>//api/name/advIntervalTable</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

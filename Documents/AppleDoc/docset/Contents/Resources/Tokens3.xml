@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/WZBeaconManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/WZBeaconManager</TokenIdentifier>
+			<Abstract type="html">iBeacon API using Core Location API.</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/WZBeaconManager/sharedInstance</TokenIdentifier>
+			<Abstract type="html">Get instance of WZBeaconManager that implemented with the singleton pattern.</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>+ (WZBeaconManager *)sharedInstance</Declaration>
+			
+			
+			<Anchor>//api/name/sharedInstance</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconManager/getManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>- (CLLocationManager *)getManager</Declaration>
+			
+			
+			<Anchor>//api/name/getManager</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconManager/startRangingBeaconsInRegion:</TokenIdentifier>
+			<Abstract type="html">Starts ranging for the specified WZBeaconRegion using Core Location.</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>- (void)startRangingBeaconsInRegion:(WZBeaconRegion *)region</Declaration>
+			
+			
+			<Anchor>//api/name/startRangingBeaconsInRegion:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconManager/stopRangingBeaconsInRegion:</TokenIdentifier>
+			<Abstract type="html">Stops ranging for the specified WZBeaconRegion using Core Location.</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>- (void)stopRangingBeaconsInRegion:(WZBeaconRegion *)region</Declaration>
+			
+			
+			<Anchor>//api/name/stopRangingBeaconsInRegion:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconManager/startMonitoringForRegion:</TokenIdentifier>
+			<Abstract type="html">Start monitoring for did enter or exit the specified WZBeaconRegion using Core Location.</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>- (void)startMonitoringForRegion:(WZBeaconRegion *)region</Declaration>
+			
+			
+			<Anchor>//api/name/startMonitoringForRegion:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconManager/stopMonitoringForRegion:</TokenIdentifier>
+			<Abstract type="html">Stop monitoring for did enter or exit the specified WZBeaconRegion using Core Location.</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>- (void)stopMonitoringForRegion:(WZBeaconRegion *)region</Declaration>
+			
+			
+			<Anchor>//api/name/stopMonitoringForRegion:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconManager/cleanScannedDevices</TokenIdentifier>
+			<Abstract type="html">Clean all scanned devices.</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>- (void)cleanScannedDevices</Declaration>
+			
+			
+			<Anchor>//api/name/cleanScannedDevices</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconManager/cleanAllRangingRegions</TokenIdentifier>
+			<Abstract type="html">Clean all WZBeaconRegion.</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>- (void)cleanAllRangingRegions</Declaration>
+			
+			
+			<Anchor>//api/name/cleanAllRangingRegions</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconManager/cleanAllMonitoringRegions</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>- (void)cleanAllMonitoringRegions</Declaration>
+			
+			
+			<Anchor>//api/name/cleanAllMonitoringRegions</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconManager/setEnableNotification:</TokenIdentifier>
+			<Abstract type="html">Broadcast notification enable or disable. Default is disable.</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableNotification</Declaration>
+			
+			
+			<Anchor>//api/name/enableNotification</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconManager/enableNotification</TokenIdentifier>
+			<Abstract type="html">Broadcast notification enable or disable. Default is disable.</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableNotification</Declaration>
+			
+			
+			<Anchor>//api/name/enableNotification</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeaconManager/enableNotification</TokenIdentifier>
+			<Abstract type="html">Broadcast notification enable or disable. Default is disable.</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableNotification</Declaration>
+			
+			
+			<Anchor>//api/name/enableNotification</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconManager/setDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate object to receive update events.</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) id&lt;WZBeaconManagerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconManager/delegate</TokenIdentifier>
+			<Abstract type="html">The delegate object to receive update events.</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) id&lt;WZBeaconManagerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeaconManager/delegate</TokenIdentifier>
+			<Abstract type="html">The delegate object to receive update events.</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) id&lt;WZBeaconManagerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconManager/setRangingRegions:</TokenIdentifier>
+			<Abstract type="html">Current ranging regions (WZBeaconRegion</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic, readonly) NSMutableArray *rangingRegions</Declaration>
+			
+			
+			<Anchor>//api/name/rangingRegions</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconManager/rangingRegions</TokenIdentifier>
+			<Abstract type="html">Current ranging regions (WZBeaconRegion</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic, readonly) NSMutableArray *rangingRegions</Declaration>
+			
+			
+			<Anchor>//api/name/rangingRegions</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeaconManager/rangingRegions</TokenIdentifier>
+			<Abstract type="html">Current ranging regions (WZBeaconRegion</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic, readonly) NSMutableArray *rangingRegions</Declaration>
+			
+			
+			<Anchor>//api/name/rangingRegions</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconManager/setMonitoringRegions:</TokenIdentifier>
+			<Abstract type="html">Current monitoring regions (WZBeaconRegion</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic, readonly) NSMutableArray *monitoringRegions</Declaration>
+			
+			
+			<Anchor>//api/name/monitoringRegions</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconManager/monitoringRegions</TokenIdentifier>
+			<Abstract type="html">Current monitoring regions (WZBeaconRegion</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic, readonly) NSMutableArray *monitoringRegions</Declaration>
+			
+			
+			<Anchor>//api/name/monitoringRegions</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeaconManager/monitoringRegions</TokenIdentifier>
+			<Abstract type="html">Current monitoring regions (WZBeaconRegion</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic, readonly) NSMutableArray *monitoringRegions</Declaration>
+			
+			
+			<Anchor>//api/name/monitoringRegions</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconManager/setDevices:</TokenIdentifier>
+			<Abstract type="html">All scanned beacon devices (CLBeacon). This devices fill by call startRangingBeaconsInRegion:</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic, readonly) NSMutableArray *devices</Declaration>
+			
+			
+			<Anchor>//api/name/devices</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconManager/devices</TokenIdentifier>
+			<Abstract type="html">All scanned beacon devices (CLBeacon). This devices fill by call startRangingBeaconsInRegion:</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic, readonly) NSMutableArray *devices</Declaration>
+			
+			
+			<Anchor>//api/name/devices</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeaconManager/devices</TokenIdentifier>
+			<Abstract type="html">All scanned beacon devices (CLBeacon). This devices fill by call startRangingBeaconsInRegion:</Abstract>
+			<DeclaredIn>WZBeaconManager.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic, readonly) NSMutableArray *devices</Declaration>
+			
+			
+			<Anchor>//api/name/devices</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

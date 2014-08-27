@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/WZBeaconBLEManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/WZBeaconBLEManager</TokenIdentifier>
+			<Abstract type="html">iBeacon API using BLE Core Bluetooth API. This BLE Manager run in seperate thread. Your UI action must be in a main thread using performSelectorOnMainThread.</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/WZBeaconBLEManager/sharedInstance</TokenIdentifier>
+			<Abstract type="html">Get instance of WZBeaconBLEManager that implemented with the singleton pattern.</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+			
+			<Declaration>+ (WZBeaconBLEManager *)sharedInstance</Declaration>
+			
+			
+			<Anchor>//api/name/sharedInstance</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconBLEManager/getManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+			
+			<Declaration>- (CBCentralManager *)getManager</Declaration>
+			
+			
+			<Anchor>//api/name/getManager</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconBLEManager/startBLEScan</TokenIdentifier>
+			<Abstract type="html">Start scanning for all WZBeacon.</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+			
+			<Declaration>- (void)startBLEScan</Declaration>
+			
+			
+			<Anchor>//api/name/startBLEScan</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconBLEManager/stopBLEScan</TokenIdentifier>
+			<Abstract type="html">Stop scanning.</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+			
+			<Declaration>- (void)stopBLEScan</Declaration>
+			
+			
+			<Anchor>//api/name/stopBLEScan</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconBLEManager/connect:</TokenIdentifier>
+			<Abstract type="html">Try to connect WZBeacon. Return value is called by delegate.</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+			
+			<Declaration>- (void)connect:(WZBeacon *)beacon</Declaration>
+			
+			
+			<Anchor>//api/name/connect:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconBLEManager/disconnect:</TokenIdentifier>
+			<Abstract type="html">Try to disconnect WZBeacon. Return value is called by delegate.</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+			
+			<Declaration>- (void)disconnect:(WZBeacon *)beacon</Declaration>
+			
+			
+			<Anchor>//api/name/disconnect:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconBLEManager/cleanScannedDevices</TokenIdentifier>
+			<Abstract type="html">Clean all scanned devices.</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+			
+			<Declaration>- (void)cleanScannedDevices</Declaration>
+			
+			
+			<Anchor>//api/name/cleanScannedDevices</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconBLEManager/setEnableNotification:</TokenIdentifier>
+			<Abstract type="html">Broadcast notification enable or disable. Default is disable.</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableNotification</Declaration>
+			
+			
+			<Anchor>//api/name/enableNotification</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconBLEManager/enableNotification</TokenIdentifier>
+			<Abstract type="html">Broadcast notification enable or disable. Default is disable.</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableNotification</Declaration>
+			
+			
+			<Anchor>//api/name/enableNotification</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeaconBLEManager/enableNotification</TokenIdentifier>
+			<Abstract type="html">Broadcast notification enable or disable. Default is disable.</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableNotification</Declaration>
+			
+			
+			<Anchor>//api/name/enableNotification</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconBLEManager/setDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate object to receive update events.</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) id&lt;WZBeaconBLEManagerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconBLEManager/delegate</TokenIdentifier>
+			<Abstract type="html">The delegate object to receive update events.</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) id&lt;WZBeaconBLEManagerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeaconBLEManager/delegate</TokenIdentifier>
+			<Abstract type="html">The delegate object to receive update events.</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) id&lt;WZBeaconBLEManagerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconBLEManager/setDevices:</TokenIdentifier>
+			<Abstract type="html">All scanned beacon devices (WZBeacon. This devices fill by call startBLEScan</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic, readonly) NSMutableArray *devices</Declaration>
+			
+			
+			<Anchor>//api/name/devices</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconBLEManager/devices</TokenIdentifier>
+			<Abstract type="html">All scanned beacon devices (WZBeacon. This devices fill by call startBLEScan</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic, readonly) NSMutableArray *devices</Declaration>
+			
+			
+			<Anchor>//api/name/devices</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeaconBLEManager/devices</TokenIdentifier>
+			<Abstract type="html">All scanned beacon devices (WZBeacon. This devices fill by call startBLEScan</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic, readonly) NSMutableArray *devices</Declaration>
+			
+			
+			<Anchor>//api/name/devices</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

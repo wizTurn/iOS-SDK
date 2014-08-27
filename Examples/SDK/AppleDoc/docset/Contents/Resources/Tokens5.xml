@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/WZBeaconBLEManagerDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/WZBeaconBLEManagerDelegate</TokenIdentifier>
+			<Abstract type="html">Delegate working with WZBeaconBLEManager. Also same notification(NSNotificationCenter) is push.</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/WZBeaconBLEManagerDelegate/centralManagerDidUpdateState:</TokenIdentifier>
+			<Abstract type="html">Calls by PowerOn or PowerOff by iOS. It changes by Core Bluetooth. If PowerOn, all CBPeripherals are disconnected. And If PowerOff, all CBPeripherals are invalid. If in this case, please retry to rescan.</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+			
+			<Declaration>- (void)centralManagerDidUpdateState:(CBCentralManager *)central</Declaration>
+			
+			
+			<Anchor>//api/name/centralManagerDidUpdateState:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/WZBeaconBLEManagerDelegate/beaconManager:didUpdateRSSI:</TokenIdentifier>
+			<Abstract type="html">Calls by recieved advertising data. You can get RSSI value by this delegate.</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+			
+			<Declaration>- (void)beaconManager:(WZBeaconBLEManager *)manager didUpdateRSSI:(WZBeacon *)beacon</Declaration>
+			
+			
+			<Anchor>//api/name/beaconManager:didUpdateRSSI:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/WZBeaconBLEManagerDelegate/beaconManager:didConnect:</TokenIdentifier>
+			<Abstract type="html">Calls if WZBeacon was successfully connected.</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+			
+			<Declaration>- (void)beaconManager:(WZBeaconBLEManager *)manager didConnect:(WZBeacon *)beacon</Declaration>
+			
+			
+			<Anchor>//api/name/beaconManager:didConnect:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/WZBeaconBLEManagerDelegate/beaconManager:didFailToConnect:error:</TokenIdentifier>
+			<Abstract type="html">Calls if failed to connect to WZBeacon.</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+			
+			<Declaration>- (void)beaconManager:(WZBeaconBLEManager *)manager didFailToConnect:(WZBeacon *)beacon error:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/beaconManager:didFailToConnect:error:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/WZBeaconBLEManagerDelegate/beaconManager:didDisconnect:error:</TokenIdentifier>
+			<Abstract type="html">Calls disconnected or connect timeout on WZBeacon.</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+			
+			<Declaration>- (void)beaconManager:(WZBeaconBLEManager *)manager didDisconnect:(WZBeacon *)beacon error:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/beaconManager:didDisconnect:error:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/WZBeaconBLEManagerDelegate/beaconManager:didFoundNewBeacon:</TokenIdentifier>
+			<Abstract type="html">Calls new WZBeacon was founded.</Abstract>
+			<DeclaredIn>WZBeaconBLEManager.h</DeclaredIn>
+			
+			<Declaration>- (void)beaconManager:(WZBeaconBLEManager *)manager didFoundNewBeacon:(WZBeacon *)beacon</Declaration>
+			
+			
+			<Anchor>//api/name/beaconManager:didFoundNewBeacon:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/whiteblue3/Library/Developer/Shared/Documentation/DocSets/com.sktelecom.WZBeaconSDK.docset
+Time: 2014-08-21 08:18:10 +0000

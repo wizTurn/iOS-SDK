@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  WizturnBeacon RnD
+
+  Created by Byeong-uk Park on 2014. 8. 6..
+  Copyright (c) 2014년 dio interactive. All rights reserved.
+*/
+
+"TurnOnBluetooth" = "Please turn on Bluetooth";
+"DoNotTurnOffBluetooth" = "Please do not turn off Bluetooth";
+"Connecting" = "Connecting...";
+"Disconnecting" = "Disconnecting\n%@";
+"BluetoothOff" = "Bluetooth Off";
+"ConnectionFailed" = "Connection Failed";
+"Disconnected" = "Disconnected";
+"Error" = "Error";
+"InvalidPassword" = "Invalid password";
+"FetchingDataTimeOut" = "Fetching data time out";
+"EditValue" = "Edit Value";
+"Write" = "Write a %@";
+"EnterPassword" = "Enter a password";
+"Authentication" = "Authentication";
+"Writing" = "Writing...";
+"FetchingData" = "Fetching Data...";
+"Authenticating" = "Authenticating...";
+"Edit" = "Edit";
+"ConnectionTimeout" = "Connection timeout";
+"AddRegion" = "Add Monitor Region";
+"EditRegion" = "Edit Monitor Region";
+"AddMonitorRegion" = "Add a monitoring region. If Major, Minor has left blank, wildcard will be specify";
+"EditMonitorRegion" = "Edit a monitoring region. If Major, Minor has left blank, wildcard will be specify";
+"Preference" = "Preference";
+"RegionEnter" = "Entered Region";
+"RegionExit" = "Exited Region";
+"EnterRegion" = "Enter UUID : %@ / Major : %@ / Minor : %@";
+"ExitRegion" = "Exit UUID : %@ / Major : %@ / Minor : %@";
+"RegionInformation" = "UUID : %@ / Major : %@ / Minor : %@";
+"InvalidInput" = "Invalid Input Value";
+"UUIDNull" = "UUID must be input";
+"MajorNull" = "Major must not be wildcard with Minor specified";

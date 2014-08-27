@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  WizturnBeacon RnD
+
+  Created by Byeong-uk Park on 2014. 8. 6..
+  Copyright (c) 2014년 dio interactive. All rights reserved.
+*/
+
+"TurnOnBluetooth" = "블루투스를 켜주십시요";
+"DoNotTurnOffBluetooth" = "블루투스를 끄지 마십시요";
+"Connecting" = "연결중";
+"Disconnecting" = "%@\n연결해제중";
+"BluetoothOff" = "블루투스 꺼짐";
+"ConnectionFailed" = "연결실패";
+"Disconnected" = "연결해제";
+"Error" = "에러";
+"InvalidPassword" = "잘못된 비밀번호입니다";
+"FetchingDataTimeOut" = "데이터 요청시간 초과";
+"EditValue" = "파라미터 변경";
+"Write" = "%@값을 변경합니다";
+"EnterPassword" = "비밀번호를 입력해주십시요";
+"Authentication" = "인증";
+"Writing" = "값 변경중";
+"FetchingData" = "데이터 요청중입니다";
+"Authenticating" = "인증중입니다";
+"Edit" = "편집";
+"ConnectionTimeout" = "연결 요청시간 초과";
+"AddRegion" = "모니터 리전 추가";
+"EditRegion" = "모니터 리전 편집";
+"AddMonitorRegion" = "모니터링할 리전을 추가합니다. Major, Minor를 빈값으로 놔두면 wildcard 지정합니다";
+"EditMonitorRegion" = "모니터링할 리전을 편집합니다. Major, Minor를 빈값으로 놔두면 wildcard 지정합니다";
+"Preference" = "설정";
+"RegionEnter" = "리전 진입";
+"RegionExit" = "리전 아웃";
+"EnterRegion" = "리전 진입 UUID : %@ / Major : %@ / Minor : %@";
+"ExitRegion" = "리전 아웃 UUID : %@ / Major : %@ / Minor : %@";
+"RegionInformation" = "UUID : %@ / Major : %@ / Minor : %@";
+"InvalidInput" = "잘못된 입력값";
+"UUIDNull" = "UUID는 반드시 지정해야합니다";
+"MajorNull" = "Major는 Minor가 입력된 상태에서는 반드시 지정하여야 합니다";

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/WZBeaconRegion.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/WZBeaconRegion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WZBeaconRegion.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconRegion/initWithProximityUUID:</TokenIdentifier>
+			<Abstract type="html">Initializes and returns a region object that targets a beacon. If proximityuuid is nil, default proximityuuid is set.</Abstract>
+			<DeclaredIn>WZBeaconRegion.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithProximityUUID:(NSString *)proximityuuid</Declaration>
+			
+			
+			<Anchor>//api/name/initWithProximityUUID:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconRegion/initWithProximityUUID:major:</TokenIdentifier>
+			<Abstract type="html">Initializes and returns a region object that targets a beacon with major value. If proximityuuid is nil, default proximityuuid is set.</Abstract>
+			<DeclaredIn>WZBeaconRegion.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithProximityUUID:(NSString *)proximityuuid major:(CLBeaconMajorValue)major</Declaration>
+			
+			
+			<Anchor>//api/name/initWithProximityUUID:major:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconRegion/initWithProximityUUID:major:minor:</TokenIdentifier>
+			<Abstract type="html">Initializes and returns a region object that targets a beacon with major value, and minor value. If proximityuuid is nil, default proximityuuid is set.</Abstract>
+			<DeclaredIn>WZBeaconRegion.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithProximityUUID:(NSString *)proximityuuid major:(CLBeaconMajorValue)major minor:(CLBeaconMinorValue)minor</Declaration>
+			
+			
+			<Anchor>//api/name/initWithProximityUUID:major:minor:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconRegion/setProximityUUID:</TokenIdentifier>
+			<Abstract type="html">The proximity UUID of the beacons being targeted. (read-only)</Abstract>
+			<DeclaredIn>WZBeaconRegion.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSUUID *proximityUUID</Declaration>
+			
+			
+			<Anchor>//api/name/proximityUUID</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconRegion/proximityUUID</TokenIdentifier>
+			<Abstract type="html">The proximity UUID of the beacons being targeted. (read-only)</Abstract>
+			<DeclaredIn>WZBeaconRegion.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSUUID *proximityUUID</Declaration>
+			
+			
+			<Anchor>//api/name/proximityUUID</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeaconRegion/proximityUUID</TokenIdentifier>
+			<Abstract type="html">The proximity UUID of the beacons being targeted. (read-only)</Abstract>
+			<DeclaredIn>WZBeaconRegion.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSUUID *proximityUUID</Declaration>
+			
+			
+			<Anchor>//api/name/proximityUUID</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconRegion/setMajor:</TokenIdentifier>
+			<Abstract type="html">The value identifying a group of beacons. (read-only)</Abstract>
+			<DeclaredIn>WZBeaconRegion.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSNumber *major</Declaration>
+			
+			
+			<Anchor>//api/name/major</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconRegion/major</TokenIdentifier>
+			<Abstract type="html">The value identifying a group of beacons. (read-only)</Abstract>
+			<DeclaredIn>WZBeaconRegion.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSNumber *major</Declaration>
+			
+			
+			<Anchor>//api/name/major</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeaconRegion/major</TokenIdentifier>
+			<Abstract type="html">The value identifying a group of beacons. (read-only)</Abstract>
+			<DeclaredIn>WZBeaconRegion.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSNumber *major</Declaration>
+			
+			
+			<Anchor>//api/name/major</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconRegion/setMinor:</TokenIdentifier>
+			<Abstract type="html">The value identifying a specific beacon within a group. (read-only)</Abstract>
+			<DeclaredIn>WZBeaconRegion.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSNumber *minor</Declaration>
+			
+			
+			<Anchor>//api/name/minor</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconRegion/minor</TokenIdentifier>
+			<Abstract type="html">The value identifying a specific beacon within a group. (read-only)</Abstract>
+			<DeclaredIn>WZBeaconRegion.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSNumber *minor</Declaration>
+			
+			
+			<Anchor>//api/name/minor</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeaconRegion/minor</TokenIdentifier>
+			<Abstract type="html">The value identifying a specific beacon within a group. (read-only)</Abstract>
+			<DeclaredIn>WZBeaconRegion.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSNumber *minor</Declaration>
+			
+			
+			<Anchor>//api/name/minor</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconRegion/setNotifyEntryStateOnDisplay:</TokenIdentifier>
+			<Abstract type="html">A Boolean indicating whether beacon notifications are sent when the device’s display is on.</Abstract>
+			<DeclaredIn>WZBeaconRegion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL notifyEntryStateOnDisplay</Declaration>
+			
+			
+			<Anchor>//api/name/notifyEntryStateOnDisplay</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WZBeaconRegion/notifyEntryStateOnDisplay</TokenIdentifier>
+			<Abstract type="html">A Boolean indicating whether beacon notifications are sent when the device’s display is on.</Abstract>
+			<DeclaredIn>WZBeaconRegion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL notifyEntryStateOnDisplay</Declaration>
+			
+			
+			<Anchor>//api/name/notifyEntryStateOnDisplay</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WZBeaconRegion/notifyEntryStateOnDisplay</TokenIdentifier>
+			<Abstract type="html">A Boolean indicating whether beacon notifications are sent when the device’s display is on.</Abstract>
+			<DeclaredIn>WZBeaconRegion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL notifyEntryStateOnDisplay</Declaration>
+			
+			
+			<Anchor>//api/name/notifyEntryStateOnDisplay</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>
